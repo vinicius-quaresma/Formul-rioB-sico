@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url(imagem/justin-eisner-ZOG7Zj7cfR8-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.container{
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    width: 350px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 8px;
+}
+.container h1{
+    color:rgb(126, 125, 73);
+    text-shadow: 2px 2px 6px white;
+}
+.topo-form{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+.topo-form img{
+    margin-right: 40px;
+}
+.form-input{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lembrar{
+    display:flex;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.form-input input[type=text],[type=password]{
+    padding: 15px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    border-bottom: 5px solid gray;
+}
+.form-input input[type=text]:focus,[type=password]:focus{
+    border-bottom: 5px solid rgb(126, 125, 73);
+}
+.form-input label{
+    color:rgb(126, 125, 73);
+    font-weight:600;
+    
+}
+.form-input a{
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: rgb(126, 125, 73);
+    font-weight: bold;
+}
+.form-input input[type=submit]{
+    padding: 10px 50px;
+    background-color: rgb(126, 125, 73);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 300;
+    cursor: pointer;
+    
+}
